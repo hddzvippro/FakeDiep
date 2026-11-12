@@ -651,10 +651,10 @@ export class GameRoom {
       return p.isGodmode ? '🛡️ ĐÃ BẬT GOD MODE (BẤT TỬ)!' : '🛡️ ĐÃ TẮT GOD MODE!';
     }
 
-    if (code === 'max' || code === 'level300' || code === 'max_level' || code === 'cap300') {
+    if (code === 'max' || code === 'level300' || code === 'max_level' || code === 'cap360') {
       p.exp = LEVEL_EXP_TABLE[300];
-      p.level = 300;
-      p.statPoints = 300;
+      p.level = 360;
+      p.statPoints = 360;
       return '⭐ ĐÃ LÊN CẤP 300 VÀ NHẬN 300 ĐIỂM NÂNG CẤP!';
     }
 
@@ -711,10 +711,10 @@ export class GameRoom {
     }
 
     if (code === 'score' || code === 'xp' || code === 'tien') {
-      p.score += 500000;
-      p.exp += 500000;
+      p.score += 5000000;
+      p.exp += 5000000;
       this.checkLevelUp(p);
-      return '💰 +500,000 ĐIỂM KINH NGHIỆM!';
+      return '💰 +500,0000 ĐIỂM KINH NGHIỆM!';
     }
 
     if (code === 'rainbow' || code === 'disco') {
