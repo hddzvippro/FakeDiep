@@ -1,0 +1,6 @@
+{
+  "name": "Arras.io 2D Tank Arena",
+  "description": "Multiplayer 2D tank battle arena inspired by arras.io featuring dozens of tank evolution branches, multiple game maps & modes, real-time physics, bosses, and live leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

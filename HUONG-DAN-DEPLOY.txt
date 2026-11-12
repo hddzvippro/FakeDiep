@@ -1,0 +1,54 @@
+================================================================================
+  HƯỚNG DẪN CHI TIẾT ĐƯA GAME LÊN RENDER & GITHUB ĐỂ CHƠI ONLINE CÙNG BẠN BÈ
+================================================================================
+
+Chào bạn! Dưới đây là 2 cách làm đơn giản và chi tiết nhất:
+
+--------------------------------------------------------------------------------
+CÁCH 1: DÙNG RENDER.COM (TỰ HOST MÁY CHỦ MULTIPLAYER RIÊNG) - KHUYÊN DÙNG
+--------------------------------------------------------------------------------
+
+BƯỚC 1: GIẢI NÉN FILE ZIP NÀY
+- Nhấp chuột phải vào file .ZIP vừa tải về -> Chọn "Extract All..." (hoặc Giải nén tại đây).
+- Bạn sẽ thấy toàn bộ các file: package.json, render.yaml, server.ts, thư mục src, dist, server, shared...
+
+BƯỚC 2: TẢI CODE LÊN GITHUB CỦA BẠN (Repo: FakeDiep)
+1. Mở trình duyệt vào repo GitHub của bạn: https://github.com/hddzvippro/FakeDiep
+2. Bấm vào nút "Add file" (màu xám ở trên danh sách file) -> Chọn "Upload files".
+3. Kéo toàn bộ các file và thư mục vừa giải nén (bao gồm cả render.yaml, package.json, server.ts, dist, src, server, shared) thả vào ô tải lên của GitHub.
+4. Cuộn xuống dưới cùng, nhập một ghi chú (ví dụ: "fix render deploy") và bấm nút xanh "Commit changes".
+
+BƯỚC 3: CÀI ĐẶT TRÊN RENDER.COM (Chỉ mất 1 phút)
+1. Truy cập https://dashboard.render.com và mở dịch vụ "FakeDiep" của bạn.
+2. Vào tab "Settings" ở cột bên trái:
+   - Mục "Root Directory": ĐỂ TRỐNG (XÓA SẠCH NẾU CÓ CHỮ NÀO).
+   - Mục "Build Command": Điền chính xác:
+     npm install --legacy-peer-deps && npm run build
+   - Mục "Start Command": Điền chính xác:
+     npm start
+3. Bấm "Save Changes" ở dưới cùng.
+4. Bấm vào tab "Deploys" ở cột bên trái -> Bấm nút "Manual Deploy" (ở góc trên bên phải) -> Chọn "Clear build cache & deploy".
+
+BƯỚC 4: TẬN HƯỞNG!
+- Đợi khoảng 1-2 phút khi Render hiện chữ màu xanh: "Deploy live" hoặc "Your service is live 🎉".
+- Truy cập vào link của bạn: https://fakediep.onrender.com
+- Bạn và bạn bè ở mọi nơi chỉ cần mở link này là vào cùng một phòng, thấy nhau, bắn nhau và chat trực tiếp!
+
+--------------------------------------------------------------------------------
+CÁCH 2: DÙNG GITHUB PAGES (SIÊU NHANH - 30 GIÂY KHÔNG CẦN CÀI ĐẶT SERVER)
+--------------------------------------------------------------------------------
+
+Nếu bạn không muốn cấu hình Render, bạn có thể chạy bằng file HTML duy nhất:
+1. Trong file zip, tìm file: arras-io-online.html
+2. Đổi tên file đó thành: index.html
+3. Vào https://github.com/hddzvippro/FakeDiep
+4. Bấm "Add file" -> "Upload files" -> Kéo file index.html lên -> Bấm "Commit changes".
+5. Vào tab "Settings" của repo trên GitHub -> Chọn mục "Pages" (ở thanh bên trái).
+6. Ở mục "Branch", chọn branch "main" -> Bấm "Save".
+7. Sau 1 phút, link chơi trực tiếp của bạn sẽ là:
+   https://hddzvippro.github.io/FakeDiep/
+   (File này đã tích hợp sẵn kết nối Server Cloud online để bạn bè cùng bắn và chat với nhau!)
+
+================================================================================
+Chúc bạn và bạn bè chơi game vui vẻ!
+================================================================================

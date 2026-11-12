@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: arras-tank-arena
+    env: node
+    plan: free
+    region: singapore
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production

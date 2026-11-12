@@ -1,0 +1,18 @@
+======================================================================
+   HUONG DAN CHOI ARRAS.IO 2D TANK ARENA TREN MAY TINH WINDOWS
+======================================================================
+
+CÁCH CHƠI RẤT ĐƠN GIẢN:
+1. Bạn chỉ cần bấm đúp chuột vào file:
+   👉 arras-io-tank-arena.exe (hoặc Play-Game.bat)
+
+2. Cửa sổ game sẽ tự động bật lên và trình duyệt web sẽ tự mở địa chỉ:
+   http://localhost:3000
+
+3. Chọn chế độ chơi (FFA, 2-TDM, 4-TDM, Maze, Boss Siege, Sandbox) và bắn!
+
+* LƯU Ý:
+- Không cần cài đặt bất kỳ phần mềm nào khác!
+- Có thể mở thêm tab mới trên trình duyệt để thêm người chơi cùng bắn nhau!
+- Để tắt game: Chỉ cần đóng cửa sổ console lại.
+======================================================================
