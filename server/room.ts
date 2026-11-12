@@ -651,10 +651,10 @@ export class GameRoom {
       return p.isGodmode ? '🛡️ ĐÃ BẬT GOD MODE (BẤT TỬ)!' : '🛡️ ĐÃ TẮT GOD MODE!';
     }
 
-    if (code === 'max' || code === 'level2000' || code === 'max_level' || code === 'cap2000') {
+    if (code === 'max' || code === 'level600' || code === 'max_level' || code === 'cap600') {
       p.exp = LEVEL_EXP_TABLE[2000];
-      p.level = 2000;
-      p.statPoints = 2000;
+      p.level = 600;
+      p.statPoints = 600;
       return '⭐ ĐÃ LÊN CẤP 300 VÀ NHẬN 300 ĐIỂM NÂNG CẤP!';
     }
 
@@ -699,9 +699,9 @@ export class GameRoom {
 
     if (code === 'mothership') {
       p.tankId = 'mothership';
-      p.level = 700;
-      p.maxHealth = 363636;
-      p.health = 363636;
+      p.level = 400;
+      p.maxHealth = 33636;
+      p.health = 33636;
       return '🛸 ĐÃ BIẾN THÀNH MOTHERSHIP (32 DRONES)!';
     }
 
@@ -711,8 +711,8 @@ export class GameRoom {
     }
 
     if (code === 'score' || code === 'xp' || code === 'tien') {
-      p.score += 50000000;
-      p.exp += 50000000;
+      p.score += 500000000;
+      p.exp += 500000000;
       this.checkLevelUp(p);
       return '💰 +500,00000 ĐIỂM KINH NGHIỆM!';
     }
