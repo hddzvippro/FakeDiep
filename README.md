@@ -1,6 +1,6 @@
 # 🎮 Arras.io 2D Tank Battle Arena (Multiplayer Online)
 
-Game 2D xe tăng bắn súng nhiều người chơi thời gian thực (Real-time Multiplayer) lấy cảm hứng từ **arras.io** và **diep.io**. Hỗ trợ hơn **40 loại xe tăng**, 9 chế độ chơi, bot AI thông minh (từ gà đến pro), bảng mã **Cheat Code**, chat thời gian thực và bảng xếp hạng online!
+Game 2D xe tăng bắn súng nhiều người chơi thời gian thực (Real-time Multiplayer) lấy cảm hứng từ **arras.io** và **diep.io**. Hỗ trợ hơn **60 loại xe tăng**, 10 chế độ chơi, bot AI thông minh (từ gà đến pro), cấp độ vô hạn, chat thời gian thực và bảng xếp hạng online!
 
 ---
 
@@ -76,29 +76,25 @@ Game 2D xe tăng bắn súng nhiều người chơi thời gian thực (Real-tim
 | **C** | Bật / tắt Tự động xoay nòng (Auto-Spin) |
 | **1 đến 8** | Nâng cấp 8 chỉ số kỹ năng |
 | **Giữ M + 1-8** | Nâng max chỉ số ngay lập tức |
-| **U** | Bật / tắt xem bảng chỉ số (tự động ẩn khi đã hết điểm) |
-| **/** hoặc **K** | Mở bảng mã gian lận (Cheat Menu) |
+| **U** | Bật / tắt các bảng nâng cấp (bảng chỉ số + bảng tiến hóa xe tăng) |
+| **Tab** | Bật / tắt bảng xếp hạng |
 | **Enter** | Mở ô chat trò chuyện với người chơi khác |
 
 ---
 
-## ⚡ Danh sách mã Cheat Code (Gõ vào bảng cheat hoặc ô chat)
+## ✨ Tính năng mới
 
-* **`god`** hoặc **`bat_tu`**: Bật/tắt chế độ Bất tử 100% (không dính sát thương).
-* **`max`** hoặc **`cap45`**: Lên thẳng Cấp 45 và nhận 33 điểm nâng cấp kỹ năng.
-* **`nuke`**: Kích hoạt bom nguyên tử quét sạch mọi kẻ địch và quái trong bán kính 950px.
-* **`closer`**: Biến hình thành Thần **Arena Closer** kinh điển với kích thước khổng lồ và đạn siêu mạnh.
-* **`dominator`**: Biến hình thành **Pháo Đài Dominator** 3000 máu.
-* **`mothership`**: Biến hình thành **Tàu Mẹ Mothership** điều khiển cùng lúc 32 siêu Drone.
-* **`speed`**: Siêu tốc độ di chuyển Turbo x3.
-* **`score`**: Nhận ngay **+50,000 XP**.
-* **`rainbow`**: Kích hoạt skin cầu vồng 7 màu nhấp nháy ảo diệu.
-* **`heal`**: Hồi đầy 100% thanh máu lập tức.
-* **`boss`**: Triệu hồi Siêu Boss Guardian để săn lùng.
+* **Đạn đụng đạn:** đạn của hai phe đối địch (hoặc của hai người khác nhau trong FFA) chạm nhau sẽ phá vỡ lẫn nhau. Sức mạnh của viên đạn phụ thuộc vào xe tăng đang chọn (sát thương + độ bền của đạn, cộng thêm điểm nâng cấp), nên đạn của xe mạnh sẽ xuyên qua đạn yếu. Đạn cùng đội không va vào nhau.
+* **Cấp độ vô hạn:** sau cấp 45 vẫn tiếp tục lên cấp được, mỗi cấp cần nhiều điểm hơn cấp trước (+7% mỗi cấp).
+* **Xe to dần theo cấp:** cứ lên 10 cấp, xe tăng to thêm 1.05 lần (nhân dồn). Cấp 10: x1.05, cấp 20: x1.10, cấp 45: x1.22, cấp 100: x1.63... Cả thân xe, nòng súng, viên đạn và vùng va chạm đều to theo, camera tự lùi ra một chút cho dễ nhìn.
+* **15 xe tăng mới** lấy cảm hứng từ arras.io:
+  * Tier 3: Twin Flank, Hexa Tank, Artillery, Launcher, Minigun, Manager (tàng hình khi đứng yên).
+  * Tier 4: Predator, Spread Shot, Cyclone, Mortar, Overtrapper, Gunner Trapper, Swarmer, Carrier, Falcon.
+* **Chế độ Zombie dễ hơn:** ít zombie hơn mỗi wave, zombie yếu/chậm/bắn chậm và ngắm kém hơn, đứng xa bắn thay vì lao vào đâm, đâm yếu hơn, boss xuất hiện thưa hơn và ít máu hơn.
 
 ---
 
-## 🛡️ 9 Bản đồ & Chế độ chơi
+## 🛡️ 10 Bản đồ & Chế độ chơi
 
 1. **Free For All (FFA)**: Đấu trường tự do sinh tồn, tranh giành tổ Pentagon ở trung tâm.
 2. **2-Team Deathmatch (2-TDM)**: Phe Xanh vs Phe Đỏ, căn cứ an toàn có siêu Drone bảo vệ.
@@ -108,4 +104,5 @@ Game 2D xe tăng bắn súng nhiều người chơi thời gian thực (Real-tim
 6. **Juggernaut Hunt**: 1 Siêu Xe Tăng Juggernaut (máu siêu trâu) đối đầu với toàn bộ người chơi trong phòng.
 7. **Labyrinth Maze**: Mê cung tường đá hẹp, chuyên phục kích và bắn lén.
 8. **Boss Siege**: Hợp tác toàn server raid Siêu Boss khổng lồ cực trâu.
-9. **Sandbox Arena**: Cấp 45 ngay lập tức, tự do đổi sang bất kỳ xe tăng nào trong 40+ loại, spawn Boss và Bot tùy ý.
+9. **Sandbox Arena**: Cấp 45 ngay lập tức, tự do đổi sang bất kỳ xe tăng nào trong 60+ loại, spawn Boss và Bot tùy ý.
+10. **Zombie Wave**: Hợp tác chống từng đợt zombie, mỗi wave đông và mạnh hơn.
